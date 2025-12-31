@@ -6,7 +6,8 @@ Three separate programs
 Your hexdump for the command lines. Those are source code I wrote in the early days of my Assembly programming.
 They are not perfect, but I keep it as is. 
 
-> [!NOTE] Windows version of hexdump only runs in Command Prompt, because there is command line parsing error in PowerShell.
+> [!NOTE]
+> Windows version of hexdump only runs in Command Prompt, because there is command line parsing error in PowerShell.
 
 ## Build 
 
@@ -37,4 +38,5 @@ Some fasm users had published similar hexdump program:
 * https://github.com/chastitywhiterose/chastehex (see `asm` folder)
 
 * https://github.com/vlabsc/file_in_hex
+
  
