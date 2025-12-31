@@ -19,7 +19,8 @@ The main code in each of these programs is the same Assembly code, except librar
 
 | Linux             | Win32 API                       | DOS                           |
 |-------------------|---------------------------------|-------------------------------|
-| Call stack        | GetCommandLineA (Win32 API)     | Program Segment Prefix (DOS)  |
+| `hexdump.asm`     | `HEXDUMPW.asm`                  | `HEXDUMPD.ASM`                |     
+| Call stack        | GetCommandLineA                 | Program Segment Prefix        |
 | syscall 2         | CreateFileA                     | DOS Interrupt AH=3dh          |
 | syscall 0         | ReadFile                        | DOS Interrupt AH=3fh          |
 | syscall 1         | WriteFile                       | DOS Interrupt AH=2 & AH=9     |
@@ -40,3 +41,4 @@ Some fasm users had published similar hexdump program:
 * https://github.com/vlabsc/file_in_hex
 
  
+
